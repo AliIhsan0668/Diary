@@ -4,11 +4,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: #0F172A;        /* izleyici bölgesinin rengi */
+    background: #000c2a;        /* izleyici bölgesinin rengi */
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: rgba(30, 41, 59, 0.4);    /* kaydırma çubuğunun rengi */
+    background-color: #000c2a;    /* kaydırma çubuğunun rengi */
     border-radius: 20px;       /* kaydırma çubuğunun yuvarlaklığı */
     border: none;
   }
@@ -22,8 +22,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-color: #0F172A;
-    color: #F8FAFC;
+    background-color: #000c2a;
+    color: #0400ff;
 }
 
 h1, h2, p {
@@ -97,7 +97,7 @@ ul {
 }
 
 .card__text {
-    border-top: 1px solid rgba(14, 165, 233, 1);
+    border-top: 1px solid rgb(60, 0, 255);
     width: inherit;
     display: flex;
     padding: 50px 0 20px;
